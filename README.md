@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @hammit-01
+- 👀 I’m interested in php, html, c language
+- 🌱 I’m currently learning php, html, java script, sql query
+- I want to receive advice about my work
