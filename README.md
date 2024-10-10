@@ -1,9 +1,13 @@
 <div align=center>
 
 # 👋 Hi, I’m @hammit-01
+- 대진대학교 컴퓨터공학과 재학
 
 # Projects
-![SnapIt](https://github.com/hammit-01/SnapIt)
+- **SnapIt: (https://github.com/hammit-01/SnapIt)**
+
+# Notion
+- **Hammit: (https://www.notion.so/Me-1c559b4470ef474a9167b25b4f4f4242)**
 
 #### 👀 Tech Stack
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
