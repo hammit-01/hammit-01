@@ -1,7 +1,9 @@
 <div align=center>
 
 # 👋 Hi, I’m @hammit-01
-- 백엔드를 즐겨하는 주니어 아기 개발자
+
+# Projects
+![SnapIt](https://github.com/hammit-01/SnapIt)
 
 #### 👀 Tech Stack
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
