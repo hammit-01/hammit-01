@@ -1,7 +1,7 @@
 <div align=center>
 
 # 👋 Hi, I’m @hammit-01
-- 대진대학교 컴퓨터공학과 재학
+- 대진대학교 컴퓨터공학과 졸업
 
 # Projects
 - **SnapIt: (https://github.com/hammit-01/SnapIt)**
