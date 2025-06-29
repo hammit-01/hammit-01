@@ -65,6 +65,7 @@
 - 📬 Email: [mpa0530@gmail.com]
 - 🧾 Notion: [https://www.notion.so/Me-1c559b4470ef474a9167b25b4f4f4242](https://www.notion.so/Me-1c559b4470ef474a9167b25b4f4f4242)
 - 🐙 GitHub: [github.com/hammit-01](https://github.com/hammit-01)
+- :smiley: GitHub-Gist: [gist.github.com/hammit-01](https://gist.github.com/hammit-01)
 
 ---
 
