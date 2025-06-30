@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh Hammit!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Oh Hammit!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Python.html">Python</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+      <div class="profile-card">
+        <img src="profile.jpg" alt="내 프로필" width="100">
+        <h3>김혜미</h3>
+        <p>Conscience does make cowards of us all</p>
+        <ul class="profile-links">
+          <li><a href="https://github.com/hammit-01">GitHub</a></li>
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <section>
+        <h2></h2>
+        <article>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDmmQ6LNPfgg-kohTHXMlZJNcPspZ2dypE",
+    authDomain: "hammit-01.firebaseapp.com",
+    databaseURL: "https://hammit-01-default-rtdb.firebaseio.com",
+    projectId: "hammit-01",
+    storageBucket: "hammit-01.firebasestorage.app",
+    messagingSenderId: "283456862733",
+    appId: "1:283456862733:web:4f7dd02612ffe23442b344",
+    measurementId: "G-L0VNH9PB5W"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+  function savePost(title, content) {
+  const postsRef = database.ref('posts');
+  const newPostRef = postsRef.push();
+  newPostRef.set({
+    title: title,
+    content: content,
+    createdAt: firebase.database.ServerValue.TIMESTAMP
+  });
+}
+
+</script>
+</html>
